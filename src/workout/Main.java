@@ -88,15 +88,32 @@ public class Main {
  //       System.out.println(home.type);
  //       home.run();
 
-        Marker selna = new Marker();
-        selna.color = "blak";
-        selna.size = 10;
-        selna.type = "selna";
+ //       Marker selna = new Marker();
+ //       selna.color = "blak";
+ //       selna.size = 10;
+ //       selna.type = "selna";
 
-        System.out.println(selna.color);
-        System.out.println(selna.size);
-        System.out.println(selna.type);
-        selna.write();
+ //       System.out.println(selna.color);
+ //       System.out.println(selna.size);
+ //       System.out.println(selna.type);
+ //       selna.write();
+
+          Car saipa = new Car();
+          saipa.color = "white";
+          saipa.size = 250;
+          saipa.type = "pride";
+
+        System.out.println(saipa.color);
+        System.out.println(saipa.size);
+        System.out.println(saipa.type);
+        saipa.start();
+        saipa.steeringwheel();
+        saipa.battery();
+        saipa.brake();
+        saipa.chair();
+        saipa.fan();
+        saipa.tire();
+
 
     }
 }
