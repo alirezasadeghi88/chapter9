@@ -3,6 +3,7 @@ package homework;
 public class Main {
     public static void main(String[] args) {
       Human ali = new Human();
+        Human.count++ ;
         ali.age = 16;
         ali.wright = 70;
         ali.height = 184;
@@ -10,6 +11,7 @@ public class Main {
 
         System.out.println("ALI");
 
+        System.out.println(Human.count);
         System.out.println(ali.age);
         System.out.println(ali.height);
         System.out.println(ali.wright);
@@ -23,11 +25,14 @@ public class Main {
         System.out.println("REZA");
 
       Human reza = new Human();
+
+        Human.count++;
         reza.age = 20;
         reza.wright = 80;
         reza.height = 170;
         reza.gender = "boy";
 
+        System.out.println(Human.count);
         System.out.println(reza.age);
         System.out.println(reza.height);
         System.out.println(reza.wright);
@@ -41,11 +46,13 @@ public class Main {
         System.out.println("ZAHRA");
 
         Human zahra = new Human();
+        Human.count++;
         zahra.age = 23;
         zahra.wright = 60;
         zahra.height = 168;
         zahra.gender = "girl";
 
+        System.out.println(Human.count);
         System.out.println(zahra.age);
         System.out.println(zahra.height);
         System.out.println(zahra.wright);

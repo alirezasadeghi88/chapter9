@@ -3,6 +3,7 @@ package homework;
 public class Human {
     Human() {
     }
+    public static int count;
     public int age;
     public int wright;
     public int height;
