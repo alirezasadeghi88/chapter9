@@ -18,5 +18,7 @@ class A {
 
     public void print() {
         System.out.println(s);
+
+        int[] sum = {4, 5, 6};
     }
 }

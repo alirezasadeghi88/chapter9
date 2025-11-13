@@ -1,6 +1,7 @@
 package workout;
 
 
+import homework.Human;
 
 public class Main {
     public static void main(String[] args) {
@@ -98,21 +99,23 @@ public class Main {
  //       System.out.println(selna.type);
  //       selna.write();
 
-          Car saipa = new Car();
-          saipa.color = "white";
-          saipa.size = 250;
-          saipa.type = "pride";
+ //         Car saipa = new Car();
+ //         saipa.color = "white";
+ //         saipa.size = 250;
+ //         saipa.type = "pride";
 
-        System.out.println(saipa.color);
-        System.out.println(saipa.size);
-        System.out.println(saipa.type);
-        saipa.start();
-        saipa.steeringwheel();
-        saipa.battery();
-        saipa.brake();
-        saipa.chair();
-        saipa.fan();
-        saipa.tire();
+ //       System.out.println(saipa.color);
+ //       System.out.println(saipa.size);
+ //       System.out.println(saipa.type);
+ //       saipa.start();
+ //       saipa.steeringwheel();
+ //       saipa.battery();
+//        saipa.brake();
+//        saipa.chair();
+//        saipa.fan();
+//        saipa.tire();
+
+
 
 
     }
