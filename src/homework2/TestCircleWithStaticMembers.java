@@ -1,5 +1,7 @@
 package homework2;
 
+import java.util.concurrent.Callable;
+
 public class TestCircleWithStaticMembers {
     public static void main(String[] args) {
         System.out.println("Before creating objects");
@@ -24,5 +26,11 @@ public class TestCircleWithStaticMembers {
         System.out.println("c2: radius (" + c2.radius +
                 ") and number of circle objects (" +
                 c2.numberOfObjects + ")");
+
+         Circle c3 = new Circle(20,10);
+
+
+
+
     }
 }

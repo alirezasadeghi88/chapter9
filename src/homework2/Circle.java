@@ -16,11 +16,16 @@ public class Circle {
         numberOfObjects++;
     }
 
+    Circle(double newRadius, int newNumberOfObjects) {
+        radius = newRadius;
+        numberOfObjects = newNumberOfObjects;
+    }
+
     static int getNumberOfObjects() {
         return numberOfObjects;
     }
 
-    double getArea() {
+     double getArea() {
         return radius * radius * Math.PI;
     }
 }
